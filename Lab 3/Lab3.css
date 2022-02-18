@@ -1,0 +1,42 @@
+body {
+  margin: 0 auto;
+  max-width: 70em;
+  line-height: 1.5;
+  padding: 4em 1em;
+  font-family: "Helvetica", "Arial", sans-serif;
+  background-color: lightblue;
+}
+
+h1 {
+  font-size: x-large;
+  text-align:center;
+}
+h5{
+  text-align:center;
+}
+h3{
+  border-width: 10px;
+  border-style: solid;
+  border-color: black;
+  border-bottom-width: 0px;
+}
+h4{
+  background-color:white;
+}
+section{
+  border-width: 10px;
+  border-style: solid;
+  border-color: black;
+  border-top-width: 0px;
+}
+
+footer {
+  background-color: white;
+  border-width: 10px;
+  border-style: solid;
+  border-color: black;
+}
+
+h1,h3,h4,strong {
+    color: #333;
+}
