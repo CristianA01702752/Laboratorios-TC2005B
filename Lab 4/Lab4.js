@@ -49,7 +49,7 @@ function contador(arreglo) {
         else if (arreglo[i] === 0 ) {
             ceros++;
         }
-        else if (arreglo[i] > 0 ) {
+        else {
             positivos++;
         }
     }
