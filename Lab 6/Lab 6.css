@@ -73,3 +73,11 @@ body {
 .form-login a:hover {
   text-decoration: underline;
 }
+
+footer{
+  margin: 0 auto;
+  max-width: 70em;
+  line-height: 1.5;
+  padding: 4em 1em;
+  font-family: "Helvetica", "Arial", sans-serif;
+}
