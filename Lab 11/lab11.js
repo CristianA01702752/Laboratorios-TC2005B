@@ -11,7 +11,7 @@ app.use('/suscripcion', rutasSus);
 app.use('/inicio', (request, response, next) => {
     let html = '<h1>Bienvenido a User Vault</h1>';
     html += '<h3>Las rutas son:</h3>';
-    html += '<p><ul><li>/inicio</li><li>/userv</li><li>/userv/agregar-username</li><li>/suscripcion</li><li>/suscripcion/intro</li></ul></p>';
+    html += '<p><ul><li>/inicio</li><li>/userv</li><li>/userv/agregar-username</li><li>/suscripcion</li><li>/suscripcion/precios</li></ul></p>';
     response.send(html);
 });
 
