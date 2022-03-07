@@ -13,7 +13,7 @@ router.get('/precios', (request, response, next) => {
 router.get( '/intro', (request, response, next) => {
     let html = '<h1>User vault</h1>';
     html += '<p>Somos una empresa de almacenamiento online.</p>'
-    html += '<p>Para que guardes todo lo que tu pc no puede guardary</p>'
+    html += '<p>Para que guardes todo lo que tu pc no puede guardar</p>'
     response.send(html);
 });
 
