@@ -4,7 +4,7 @@ const usernames = ['Lust Chase', 'BeTusToB', 'Iron Revenant', 'NetoEsPlata', 'In
 const server = http.createServer( (request, response) => {
 
 // rutas:
-// /agregar-username, /nommbres-registrados, /inicio
+// /agregar-username, /nombres-registrados, /inicio
 
     if (request.url == '/') {
       response.setHeader('Content-Type', 'text/html');
