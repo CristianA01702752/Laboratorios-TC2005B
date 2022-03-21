@@ -1,0 +1,36 @@
+{
+  "name": "lab-17",
+  "version": "1.0.0",
+  "description": "Laboratorio 17",
+  "main": "lab17.js",
+  "scripts": {
+    "start": "nodemon lab17.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CristianA01702752/Laboratorios-TC2005B.git"
+  },
+  "keywords": [
+    "none"
+  ],
+  "author": "Cris Espinosa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CristianA01702752/Laboratorios-TC2005B/issues"
+  },
+  "homepage": "https://github.com/CristianA01702752/Laboratorios-TC2005B#readme",
+  "dependencies": {
+    "body-parser": "^1.19.2",
+    "cookie-parser": "^1.4.6",
+    "ejs": "^3.1.6",
+    "express": "^4.17.3",
+    "express-session": "^1.17.2",
+    "mysql2": "^2.3.3",
+    "path": "^0.12.7",
+    "session": "^0.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
