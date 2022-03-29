@@ -21,7 +21,7 @@ exports.get = (request, response, next) => {
     User.fetchAll()
       .then(([rows, fieldData]) => {
           response.render('usernames', {
-              usernames: rows,
+              nombre_usuario: rows,
               titulo: 'Usuarios',
               isLoggedIn: request.session.isLoggedIn === true ? true : false
           });

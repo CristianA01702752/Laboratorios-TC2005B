@@ -4,9 +4,11 @@
 
 <body>
     <h1>Usuarios Registrados</h1>
-    <% user.forEach(users => { %>
     <ul>
-      <li>users.nombre</li>
+    <% if(users.length>0){ %>
+      <% for (let users1 of users) {%>
+        <li><%users1.nombre_usuario%></li>
+    <%}%>
+  <%}%>
     </ul>
-    <% }); %>
 </body>
